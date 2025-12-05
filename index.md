@@ -19,7 +19,6 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > * Access the grid via their CMS grid certificate. If you don't have it then follow this procedure [here](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookStartingGrid#ObtainingCert)
 {: .prereq}
 
-
 ## Goal of this exercise
 
 During this short exercise students will learn the basics of electron and photon reconstruction in CMS. Students will gain familiarity with the fundamental components of reconstruction and identification, use common algorithms, and will be introduced to the general EGamma requirements of standard CMS analyses. This will be done using the values stored in the NanoAOD data tier and using the Coffea framework.
