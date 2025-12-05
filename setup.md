@@ -6,6 +6,7 @@ title: Setup
 
 Open a terminal/console, connect to `cmslpc-el9` and prepare your working area.
 
+> ## Choose your port number
 > Because we are forwarding jupyter notebooks to local browsers, you need to pick a 3-digit port number `XXX` in the ssh command:
 {: .caution}
 
