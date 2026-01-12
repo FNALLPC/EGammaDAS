@@ -18,21 +18,17 @@ ssh USERNAME@cmslpc-el9.fnal.gov -L8xxx:localhost:8xxx
 
 # create a working directory and clone the repo
 cd nobackup # if this symlink does not exist, look for /uscms_data/d1/$USER
-git clone git@github.com:FNALLPC/ShortExerciseEGamma2025.git
-cd ShortExerciseEGamma2025
+git clone --branch 2026 https://github.com/FNALLPC/EGammaDAS.git cmsdas2026/EGammaShortEx
+cd cmsdas2026/EGammaShortEx
 
-# in case you do not already have this in your .bashrc (or equivalent) please run
-source /cvmfs/cms.cern.ch/cmsset_default.sh
-
-# this script sets up the python environment, only run once
-./setup.sh
-
-# this enables the environment, run it each login (csh users: use activate.csh)
-source egammaenv/bin/activate
+# setup environment for jupyter notebook 
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105c/x86_64-el9-gcc13-opt/setup.sh
+unset PYTHONHOME
 
 # this gives you permission to read CMS data via xrootd
 voms-proxy-init --voms cms --valid 100:00
 
+# start the jupyter notebook
 jupyter notebook --no-browser --port 8xxx
 ```
 There should be a link like `http://localhost:8xxx/?token=...` displayed in the output at this point, paste that into your browser.
