@@ -22,6 +22,7 @@ git clone --branch 2026 https://github.com/FNALLPC/EGammaDAS.git cmsdas2026/EGam
 cd cmsdas2026/EGammaShortEx
 
 # setup environment for jupyter notebook 
+source /cvmfs/cms.cern.ch/cmsset_default.sh
 source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
 unset PYTHONHOME
 
