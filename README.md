@@ -22,7 +22,7 @@ git clone --branch 2026 https://github.com/FNALLPC/EGammaDAS.git cmsdas2026/EGam
 cd cmsdas2026/EGammaShortEx
 
 # setup environment for jupyter notebook 
-source /cvmfs/sft.cern.ch/lcg/views/LCG_105c/x86_64-el9-gcc13-opt/setup.sh
+source /cvmfs/sft.cern.ch/lcg/views/LCG_105/x86_64-el9-gcc13-opt/setup.sh
 unset PYTHONHOME
 
 # this gives you permission to read CMS data via xrootd
