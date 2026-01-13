@@ -9,13 +9,13 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 > ## Links 
 > * [CMSDAS at LPC2026](https://indico.cern.ch/e/cmsdas2026)
 > * [EGamma shortEx github repo](https://github.com/FNALLPC/EGammaDAS)
-> * [(To be updated: )Slides](https://twiki.cern.ch/twiki/pub/CMS/SWGuideCMSDataAnalysisSchoolLPC2025ShortExEGamma/EGamma_Short_Exercise_2025_LPC_CMSDAS.pdf)
+> * [Slides](https://indico.cern.ch/event/1518299/contributions/6389404/attachments/3199051/5694797/CMSDAS2026_EGamma.pdf)
 > * [CMS EGamma POG twiki](https://twiki.cern.ch/twiki/bin/view/CMS/EgammaPOG)
 {: .callout}
 
 > ## Prerequisites
 > * Use the cmslpc computing cluster
-> * Checkout git repositories
+> * Checkout git repositories (but you can do this during the session)
 > * Access the grid via their CMS grid certificate. If you don't have it then follow this procedure [here](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookStartingGrid#ObtainingCert)
 {: .prereq}
 
@@ -36,15 +36,23 @@ This exercise will introduce the participants to the reconstruction, identificat
 
 This page is mainly for planning and reference. It is okay to skim the day of.
 
-## Facilitators CMSDAS LPC {{ site.year }}
- * Names () 
- * Names () 
- * Names () 
- * Names () 
+> ## Facilitators CMSDAS LPC {{ site.year }}
+> #### Lead Contact
+> * [Chris Cosby](#facilitators), FNAL ([ccosby@fnal.gov](mailto:ccosby@fnal.gov))
+>  
+> #### All Facilitators
+> * [Sweta Baradia](#facilitators), U.C. Davis ([sweta.baradia@cern.ch](mailto:sweta.baradia@cern.ch))
+> * [Ruchi Chudasama](#facilitators), University of Alabama ([rchudasama@ua.edu](mailto:rchudasama@ua.edu)) 
+> * [Grace Cummings](#facilitators), FNAL ([gcumming@fnal.gov](mailto:gcumming@fnal.gov)) 
+{: .testimonial}
+
 
 ## Support
 
-Join the mattermost channel
+
+> ## Mattermost Chat
+> **The [EGamma Short Exercise](https://mattermost.web.cern.ch/cmsdaslpc2025/channels/shortexegamma) channel will be available once you join the [CMSDAS@LPC2025](https://mattermost.web.cern.ch/cmsdaslpc2025/channels/town-square) team. 
+{: .discussion}
 
 ### Previous editions:
  - [CMSDAS 2025](https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideCMSDataAnalysisSchoolLPC2025ShortExEGamma)
